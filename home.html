@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee Shop</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
     <header>
@@ -15,19 +18,51 @@
             <nav>
                 <ul class="center-links">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#about-section">About</a></li>
                     <li><a href="#">Menu</a></li>
                     <li><a href="#">Offers</a></li>
                     <li><a href="#">Contact Us</a></li>
                 </ul>
             </nav>
-            <div class="sng-Register">
+            <div class="sng-reg">
                 <a href="#">Login</a>
                 <span>|</span>
                 <a href="#">Register</a>
             </div>
         </div>
     </header>
+    <section class="hero">
+        <video autoplay muted loop id="video-background" src="coffe.mp4"></video>
+        <div class="hero-content">
+            <h1>Your Daily Coffee Awaits</h1>
+            <p>Crafting the perfect brew to kickstart your day.</p>
+        </div>
+        <a href="#about-section" class="arrow-button"><i class="fas fa-arrow-down"></i></a>
+    </section>
+   
+
+    
+    <section class="about-section" id="about-section">
+        <div class="about1">
+            <h2>Meet Our Team</h2>
+            <p>At Coffee Bliss, we take pride in our talented bartenders who craft each cup with love and care.</p>
+        </div>
+        <div class="photos">
+            <h3>Our Bartenders</h3>
+            <div class="images-barshop">
+                <img src="images/bar1 (1).webp" alt="Bartender 1">
+                <img src="images/bar1 (2).webp" alt="Bartender 2">
+                <img src="images/bar1 (3).webp" alt="Bartender 3">
+            </div>
+            <h3>Our Coffee Shop</h3>
+            <div class="images-barshop">
+                <img src="images/shop1 (2).webp" alt="Coffee Shop Exterior">
+                <img src="images/shop1 (3).webp" alt="Coffee Shop Interior - View 1">
+                <img src="images/shop1 (1).webp" alt="Coffee Shop Interior - View 2">
+            </div>
+        </div>
+    </section>
+
     
 </body>
 </html>

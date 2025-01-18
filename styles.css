@@ -1,41 +1,128 @@
-body{
-    background-color:#F5F5DC;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+body {
     font-family: Arial, sans-serif;
 }
-
-
-.navbar{
-    background-color: #4B2F17;
+/* navi */
+.navbar {
+    background: rgba(0, 0, 0, 0.7);
     display: flex;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding: 15px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-.navbar ul{
+.navbar ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-.navbar a{
+.navbar a {
     color: white;
     text-decoration: none;
 }
-
-
-.center-links{
+.center-links {
     display: flex;
     gap: 40px;
-
 }
-
-
-.sng.Register{
+.sng-reg {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.sng.Register a,span{
+.sng-reg a, span {
     color: white;
     text-decoration: none;
 }
+/* | */
+
+/* hero and spiderman */
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-content {
+    position: absolute;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.arrow-button {
+    position: absolute;
+    bottom: 30px;
+    font-size: 60px;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.3s ease;
+}
+.arrow-button:hover{
+    transform: translateY(5px);
+}
+/* | */
+/* about */
+.about-section{
+    height: 100vh;
+    padding: 80px;
+    text-align: center;
+    background-color: #F5F5DC;
+}
+.about1 {
+    margin-bottom: 40px;
+}
+.about1 h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #4B2F17;
+}
+.about1 p {
+    font-size: 20px;
+    color: #333;
+}
+.photos h3 {
+    font-size: 28px;
+    color: #6B4F34;
+    margin-bottom: 20px;
+}
+.photos {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+.gimages-barshop{
+    gap: 20px;
+    display: flex;
+}
+.images-barshop img {
+    width: 320px;
+    height: 260px;
+    border-radius: 15px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+.images-barshop img:hover {
+    transform: scale(1.1);
+}
+/* | */

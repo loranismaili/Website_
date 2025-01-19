@@ -111,12 +111,8 @@ body {
     gap: 40px;
     align-items: center;
 }
-.gimages-barshop{
-    gap: 20px;
-    display: flex;
-}
 .images-barshop img {
-    width: 320px;
+    width: 300px;
     height: 260px;
     border-radius: 15px;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
@@ -126,3 +122,66 @@ body {
     transform: scale(1.1);
 }
 /* | */
+/* offer */
+#offer-section {
+    height: 100vh;
+    background-image: url(images/back.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#offer-section h1 {
+    font-size: 3rem;
+    color: grey ;
+    margin-bottom: 40px;
+}
+.offer-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+.offer-card {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+#offer-card1{
+    background-image: url(images/3.png);
+}
+#offer-card2{
+    background-image: url(images/2.png);
+}
+#offer-card3{
+    background-image: url(images/1.png);
+}
+
+.offer-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+}
+/* | */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+footer p {
+    margin-bottom: 10px;
+}
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social-icons a:hover {
+    color: orange;
+}

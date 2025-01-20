@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url(images/back2.png)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.form-box{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    border: 2px solid white;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+h2{
+text-align: center;
+margin-bottom: 20px;
+color: white;
+font-size: 32px;
+}
+.inputbox{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.inputbox label{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.inputbox input{
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: solid white 1px;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+.inputbox input:focus {
+    border-color: #b8b8b8;
+    outline: none;
+}
+
+button{
+    width: 100%;
+    height: 45px;
+    border-radius: 40px;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #e0e0e0;
+}
+.register p {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register p a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.register p a:hover {
+    color: burlywood;
+}

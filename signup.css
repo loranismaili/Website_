@@ -86,3 +86,48 @@ button:hover {
 .login p a:hover {
     color: burlywood;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+header {
+    background: black;
+    color: #fff;
+    padding: 15px 20px;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+

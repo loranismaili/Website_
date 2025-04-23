@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="contact.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Document</title><link rel="stylesheet" href="style.css"><script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </head>
 <body>
     <header>
@@ -44,7 +45,10 @@
 
         <div id="map-container">
             <h3>Find Us Here:</h3>
-            <iframe 
+            <button id="btn3">Show</button>
+            <button id="btn4">Hide</button><br><br>
+            <div class="hidden">
+                <iframe 
                 src="https://www.google.com/maps/embed?pb=YOUR_EMBED_URL_HERE" 
                 width="600" 
                 height="450" 
@@ -52,8 +56,10 @@
                 allowfullscreen="" 
                 loading="lazy" 
                 referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+                </iframe>
+            </div>
         </div>
     </section>
+    <script src="contact.js"></script>
 </body>
 </html>

@@ -9,6 +9,7 @@ body {
     font-family: 'Roboto', Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
+    background: #f5f5f5;
 }
 
 header {
@@ -38,6 +39,7 @@ header {
 .navbar a {
     color: #fff;
     text-decoration: none;
+    font-size: 25px;
 }
 
 #contact-section {
@@ -148,3 +150,52 @@ iframe {
     color: white;
 }
 
+#btn-toggle {
+    width: 130px;
+    height: 45px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    margin-left: 800px;
+    font-size: 18px;
+}
+
+
+
+.coffe-theme #contact-section {
+    background-color: #6d4c41;
+    color: #f5f5dc; 
+}
+.coffe-theme header {
+    background-color: #4e342e;
+}
+body.coffe-theme form {
+    background-color: #8d6e63;
+    color: #f5f5dc; 
+}
+.coffe-theme #btn-toggle,
+.coffe-theme #btn3,
+.coffe-theme #btn4 {
+    background-color: #8d6e63;
+    color: white;
+}
+.coffe-theme .navbar a {
+    color: #f5f5dc;
+}
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+form button:hover {
+    
+    background-color: #555;
+    transform: scale(1.03); 
+}
+.coffe-theme{
+    background-color: #6d4c41;
+}
+  

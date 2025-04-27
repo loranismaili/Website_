@@ -85,9 +85,7 @@ body {
 .about-section{
     height: 100vh;
     padding: 80px;
-    text-align: center;
-    /* background-image: url(images/back.png);
-    background-size: cover; */
+    text-align: center; 
 }
 .about1 {
     margin-bottom: 40px;
@@ -116,19 +114,17 @@ body {
     width: 300px;
     height: 260px;
     border-radius: 15px;
-    /* box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease; */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
 }
-/* .images-barshop img:hover {
+.images-barshop img:hover {
     transform: scale(1.1);
-} */
+}
 /* | */
 /* offer */
 #offer-section {
     height: 100vh;
-    /* background-image: url(images/back.png);
-    background-size: cover;
-    background-position: center; */
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -153,20 +149,7 @@ body {
     /* transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); */
 }
-/*#offer-card1{
-    background-image: url(images/3.png);
-}
-#offer-card2{
-    background-image: url(images/2.png);
-}
-#offer-card3{
-    background-image: url(images/1.png);
-}*/
 
-/* .offer-card:hover {
-    transform: scale(1.1);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
-} */
 /* | */
 footer {
     background: #333;
@@ -186,12 +169,7 @@ footer p {
 .social-icons a:hover {
     color: orange;
 }
-/* #about-section, #offer-section {
-    background-image: url('images/back.png');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-} */
+
 #about-section {
     background: linear-gradient(to bottom, #f5f5dc, #d9c3a0);
     

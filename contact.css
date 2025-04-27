@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -22,12 +21,19 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .navbar .logo a {
     color: #fff;
     text-decoration: none;
     font-size: 1.5rem;
+}
+
+.navbar nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .navbar ul {
@@ -40,6 +46,22 @@ header {
     color: #fff;
     text-decoration: none;
     font-size: 25px;
+}
+
+#btn-toggle {
+    width: 130px;
+    height: 45px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    font-size: 18px;
+    margin-left: auto; /* Align the button to the right */
+}
+
+#btn-toggle:hover {
+    background-color: #555;
 }
 
 #contact-section {
@@ -137,7 +159,8 @@ iframe {
         height: 250px;
     }
 }
-#btn3,#btn4{
+
+#btn3, #btn4 {
     width: 60px;
     height: 35px;
     background-color: #333;
@@ -148,61 +171,50 @@ iframe {
     margin: 5px;
     font-size: 14px;
 }
-#btn4:hover{
+
+#btn4:hover,
+#btn3:hover {
     background-color: #555;
-    transform: scale(1.03); 
+    transform: scale(1.03);
 }
-#btn3:hover{
-    background-color: #555;
-    transform: scale(1.03); 
-}
-
-#btn-toggle {
-    width: 130px;
-    height: 45px;
-    color: rgb(0, 0, 0);
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    background-color: white;
-    margin-left: 800px;
-    font-size: 18px;
-}
-
-
 
 .coffe-theme #contact-section {
     background-color: #6d4c41;
-    color: #f5f5dc; 
+    color: #f5f5dc;
 }
+
 .coffe-theme header {
     background-color: #4e342e;
 }
+
 body.coffe-theme form {
     background-color: #8d6e63;
-    color: #f5f5dc; 
+    color: #f5f5dc;
 }
+
 .coffe-theme #btn-toggle,
 .coffe-theme #btn3,
 .coffe-theme #btn4 {
     background-color: #8d6e63;
     color: white;
 }
+
 .coffe-theme .navbar a {
     color: #f5f5dc;
 }
+
 form button {
     background-color: #333;
     color: white;
     border: none;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
+
 form button:hover {
-    
     background-color: #555;
-    transform: scale(1.03); 
+    transform: scale(1.03);
 }
-.coffe-theme{
+
+.coffe-theme {
     background-color: #6d4c41;
 }
-  

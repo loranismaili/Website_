@@ -27,8 +27,8 @@ $('#btn4').click(function(){
 });
 
 
-const toggleButton = document.getElementById('btn-toggle');
-const body = document.body;
+var toggleButton = document.getElementById('btn-toggle');
+var body = document.body;
 
 toggleButton.addEventListener('click', function() {
     

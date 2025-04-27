@@ -137,17 +137,24 @@ iframe {
         height: 250px;
     }
 }
-#btn3{
-    width: 50px;
+#btn3,#btn4{
+    width: 60px;
     height: 35px;
-    background-color: #555;
+    background-color: #333;
     color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 14px;
 }
-#btn4{
-    width: 50px;
-    height: 35px;
+#btn4:hover{
     background-color: #555;
-    color: white;
+    transform: scale(1.03); 
+}
+#btn3:hover{
+    background-color: #555;
+    transform: scale(1.03); 
 }
 
 #btn-toggle {

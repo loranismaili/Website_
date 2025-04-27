@@ -43,3 +43,23 @@ var menuLink = document.getElementById('menu-link');
 menuLink.addEventListener('click',function(event) {
     alert('Coming soon!');  
 });
+
+
+
+
+function swapImages() {
+    var offerContainer = document.querySelector('.offer-container');
+    var offerCards = offerContainer.children; 
+
+
+    var firstCard = offerCards[0];
+    var secondCard = offerCards[1];
+    var thirdCard = offerCards[2];
+
+
+    offerContainer.appendChild(firstCard);
+
+}
+
+setInterval(swapImages, 5000);
+

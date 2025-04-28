@@ -40,3 +40,20 @@ toggleButton.addEventListener('click', function() {
         toggleButton.textContent = 'Coffe Theme';
     }
 });
+
+
+
+
+var menuitems = ["Home", "Signin", "Signup"];
+var links = ["home.html", "sngin.html", "sngup.html"];
+var navmenu = document.getElementById('nav-menu');
+
+
+for (var i = 0; i < menuitems.length; i++) {
+  var anchor = document.createElement('a');  
+  anchor.href = links[i];  
+  anchor.textContent = menuitems[i];  
+  anchor.classList.add('menu-item');
+  navmenu.appendChild(anchor);
+}
+

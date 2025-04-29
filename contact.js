@@ -42,12 +42,9 @@ toggleButton.addEventListener('click', function() {
 });
 
 
-
-
-var menuitems = ["Home", "Signin", "Signup"];
-var links = ["home.html", "sngin.html", "sngup.html"];
+var menuitems = ["Home"];
+var links = ["home.html"];
 var navmenu = document.getElementById('nav-menu');
-
 
 for (var i = 0; i < menuitems.length; i++) {
   var anchor = document.createElement('a');  
@@ -56,4 +53,3 @@ for (var i = 0; i < menuitems.length; i++) {
   anchor.classList.add('menu-item');
   navmenu.appendChild(anchor);
 }
-
